@@ -76,5 +76,6 @@ lelog.info('Custom logger message', true); // true bool adds timestamp output to
 
 (with time bool true (that bool is optional if not entered "false" will be default))
 
-![image]()
+![image](https://github.com/user-attachments/assets/3ae9ab78-8e76-4905-9033-adaff3fb7ace)
+
 
