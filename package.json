@@ -1,0 +1,42 @@
+{
+  "name": "lelog",
+  "version": "1.0.0",
+  "description": "Dual-environment logger for both client and server",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "gbpii",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unovatria/lelog.git"
+  },
+  "keywords": [
+    "NPM",
+    "Debug",
+    "Logger",
+    "Log",
+    "logger",
+    "typescript",
+    "nodejs",
+    "browser"
+  ],
+  "bugs": {
+    "url": "https://github.com/unovatria/lelog/issues"
+  },
+  "homepage": "https://github.com/unovatria/lelog#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
