@@ -1,3 +1,5 @@
+[![Publish to NPM](https://github.com/unovatria/lelog/actions/workflows/publish.yml/badge.svg)](https://github.com/unovatria/lelog/actions/workflows/publish.yml)
+
 # LELOG - lelog
 
 A dual-environment logger that automatically switches between server and client logging.
@@ -40,26 +42,26 @@ lelog.info('Custom logger message', true); // true bool adds timestamp output to
 ## lelog types:
 
 - Standard logging with multi-color
-
+  
   `lelog.info('Standart info log 🚀🚀🚀');`
-
+  
   `lelog.warn('Standart warning log');`
-
+  
   `lelog.error('Standart error log');`
 - Custom colored message usages:
-
+  
   `lelog.logColored('Custom colored log message', { message: '#8e44ad', className: '#F5eead'  });`
 - Background colored log message usage:
-
+  
   `lelog.logWithBackground('Log message with background', '#2ecc71');`
 - Gradient message usage:
-
+  
   `lelog.logGradient('Gradient colored log message 01234567890123456789012345678901234567890');`
 - Boxed message usage:
-
+  
   `lelog.logBox('Info log in a box', '#2ecc71');`
 - Log group usage:
-
+  
   `lelog.logGroup('Log group message', {  action: 'click',  element: 'button',  });`
 
 ## Showcase & Usage examples:
@@ -75,3 +77,4 @@ lelog.info('Custom logger message', true); // true bool adds timestamp output to
 (with time bool true (that bool is optional if not entered "false" will be default))
 
 ![image]()
+
